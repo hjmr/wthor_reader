@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "wthor_reader"
+version = "0.1.0"
+description = ""
+authors = ["hjmr <2620990+hjmr@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.11.1"
+black = "^21.9b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
